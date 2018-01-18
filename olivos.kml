@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!-- Data derived from:
+       Ed Knittel - || tastypopsicle.com
+       Feel free to use this file for your own purposes.
+       Just leave the comments and credits when doing so.
+-->
+  <Document>
+    <name>Olivos Map</name>
+    <description>Olivos Map Points</description>
+
+<Placemark>
+  <Point>
+    <coordinates>37.178944,-4.852944,0</coordinates>
+  </Point>
+    <Point>
+    <coordinates>37.178972, -4.852861,0</coordinates>
+  </Point>
+    <Point>
+    <coordinates>37.179000, -4.852806,0</coordinates>
+  </Point>
+    <Point>
+    <coordinates>37.179000, -4.852972,0</coordinates>
+  </Point>
+    <Point>
+    <coordinates>37.179028, -4.852889,0</coordinates>
+  </Point>
+    <Point>
+    <coordinates>37.179056, -4.852806,0</coordinates>
+  </Point>
+  
+</Placemark>
+  </Document>
+</kml>
