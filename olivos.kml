@@ -1,17 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://earth.google.com/kml/2.1">
-<!-- Data derived from:
-       Ed Knittel - || tastypopsicle.com
-       Feel free to use this file for your own purposes.
-       Just leave the comments and credits when doing so.
--->
-  <Document>
-    <name>Olivos Map</name>
-    <description>Olivos Map Points</description>
-
-<Placemark>
-  <Point>
-    <coordinates>37.178944,-4.852944,0</coordinates>
-    </Placemark>
-  </Document>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+ <name>Icono destacado</name>
+ <description>Coloca el ratón sobre el icono para ver si muestra el nuevo icono</description>
+ <Style id="highlightPlacemark">
+ <IconStyle>
+ <Icon>
+ <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+ </Icon>
+ </IconStyle>
+ </Style>
+ <Style id="normalPlacemark">
+ <IconStyle>
+ <Icon>
+ <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+ </Icon>
+ </IconStyle>
+ </Style>
+ <StyleMap id="exampleStyleMap">
+ <Pair>
+ <key>normal</key>
+ <styleUrl>#normalPlacemark</styleUrl>
+ </Pair>
+ <Pair>
+ <key>highlight</key>
+ <styleUrl>#highlightPlacemark</styleUrl>
+ </Pair>
+ </StyleMap>
+ <Placemark>
+ <name>Olivo 1</name>
+ <styleUrl>#highlightPlacemark</styleUrl>
+ <Point>
+<coordinates>37.178944,-4.852944,0</coordinates>
+ </Point>
+ </Placemark>
+  <Placemark>
+ <name>Olivo 2</name>
+ <styleUrl>#exampleStyleMap</styleUrl>
+ <Point>
+<coordinates>37.178972, -4.852861,0</coordinates>
+ </Point>
+ </Placemark>
+  <Placemark>
+ <name>Olivo 3</name>
+ <styleUrl>#exampleStyleMap</styleUrl>
+ <Point>
+  <coordinates>37.179000, -4.852806,0</coordinates>
+ </Point>
+ </Placemark>
+  <Placemark>
+ <name>Olivo 4</name>
+ <styleUrl>#exampleStyleMap</styleUrl>
+ <Point>
+  <coordinates>37.179000, -4.852972,0</coordinates>
+ </Point>
+ </Placemark>
+  <Placemark>
+ <name>Olivo 5</name>
+ <styleUrl>#exampleStyleMap</styleUrl>
+ <Point>
+ <coordinates>37.179028, -4.852889,0</coordinates>
+ </Point>
+ </Placemark>
+  <Placemark>
+ <name>Olivo 6</name>
+ <styleUrl>#exampleStyleMap</styleUrl>
+ <Point>
+ <coordinates>37.179056, -4.852806,0</coordinates>
+ </Point>
+ </Placemark>
+ </Document>
 </kml>
+
