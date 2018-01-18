@@ -12,23 +12,6 @@
 <Placemark>
   <Point>
     <coordinates>37.178944,-4.852944,0</coordinates>
-  </Point>
-    <Point>
-    <coordinates>37.178972, -4.852861,0</coordinates>
-  </Point>
-    <Point>
-    <coordinates>37.179000, -4.852806,0</coordinates>
-  </Point>
-    <Point>
-    <coordinates>37.179000, -4.852972,0</coordinates>
-  </Point>
-    <Point>
-    <coordinates>37.179028, -4.852889,0</coordinates>
-  </Point>
-    <Point>
-    <coordinates>37.179056, -4.852806,0</coordinates>
-  </Point>
-  
-</Placemark>
+    </Placemark>
   </Document>
 </kml>
